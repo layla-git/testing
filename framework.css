@@ -1,0 +1,503 @@
+/* Start Layout & transition*/
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.grid {
+    display: grid;
+}
+
+.gap {
+    gap: 5px;
+}
+
+.gap-5 {
+    gap: 20px;
+}
+
+.block {
+    display: block;
+}
+
+@media (max-width: 760px) {
+    .block-sm {
+        display: block;
+    }
+}
+
+.transition {
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+/* End Layout */
+
+/* Start padding & margin */
+.p-2 {
+    padding: 6px;
+}
+
+.pt-2 {
+    padding-top: 6px;
+}
+
+.pY-2 {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.p-3 {
+    padding: 10px;
+}
+
+.pb-3 {
+    padding-bottom: 10px;
+}
+
+.pl-3 {
+    padding-left: 10px;
+}
+
+.pY-3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.p-4 {
+    padding: 15px;
+}
+
+.pb-4 {
+    padding-bottom: 15px;
+}
+
+.px-4 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.p-5 {
+    padding: 20px;
+}
+
+.pr-5 {
+    padding-right: 20px;
+}
+
+.pr-6 {
+    padding-right: 23px;
+}
+
+.pX-5 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mix-p {
+    padding: 0 15px 11px;
+}
+
+.m-p {
+    padding: 20px 20px 0;
+}
+
+.m-3 {
+    margin: 10px;
+}
+
+.m-4 {
+    margin: 15px;
+}
+
+.mb-4 {
+    margin-bottom: 15px;
+}
+
+.m-5 {
+    margin: 20px;
+}
+
+.mt-9 {
+    margin-top: 40px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mr-3 {
+    margin-right: 12px;
+}
+
+.mb-1 {
+    margin-bottom: -4px;
+}
+
+.mb-2 {
+    margin-bottom: 6px;
+}
+
+.mb-3 {
+    margin-bottom: 10px;
+}
+
+.mb-5 {
+    margin-bottom: 20px;
+}
+
+.mb-9 {
+    margin-bottom: 40px;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.ml-3 {
+    margin-left: 10px;
+}
+
+.ml-5 {
+    margin-left: 20px;
+}
+
+.mX-5 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.mix-m {
+    margin: 0 10px 15px auto;
+}
+
+/* End padding & margin */
+
+/* start position & Overflow*/
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.overflow-h {
+    overflow: hidden;
+}
+
+/* End position */
+
+/* Start border */
+.rounded-full {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.rounded-md {
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.rounded-lg {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.b-none {
+    outline: none;
+    border: none;
+}
+
+.b-color {
+    border: 1px solid var(--second-alt);
+    caret-color: var(--fifth);
+}
+
+.b-fifth {
+    border: 1px solid var(--fifth);
+}
+
+.shadow {
+    box-shadow: var(--shadow);
+}
+
+.shadow-alt {
+    box-shadow: var(--shadow-alt);
+}
+
+/* End border */
+
+/* Start Color */
+.bg-transparent {
+    background-color: transparent;
+}
+
+.bg {
+    background-color: var(--main-color);
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-sixth {
+    background-color: var(--sixth);
+}
+
+.bg-fourth {
+    background-color: var(--fourth);
+}
+
+.bg-third {
+    background-color: var(--third);
+}
+
+.bg-blue {
+    background-color: #0075ff;
+}
+
+.bg-blue-alt {
+    background-color: rgb(0 117 255 / 20%);
+}
+
+.bg-orange {
+    background-color: #f59e0b;
+}
+
+.bg-orange-alt {
+    background-color: rgb(245 158 11 / 20%);
+}
+
+.bg-crimson {
+    background-color: #bc503d;
+}
+
+.bg-crimson-alt {
+    background-color: rgb(188 80 61 / 20%);
+}
+
+.text-fourth {
+    color: var(--fourth);
+}
+
+.text-black {
+    color: rgb(0 0 0);
+}
+
+.text-white {
+    color: white;
+}
+
+.c-fifth {
+    color: var(--fifth);
+}
+
+.c-blue {
+    color: var(--seventh);
+}
+
+.c-orange {
+    color: var(--eighth);
+}
+
+.c-crimson {
+    color: var(--ninth);
+}
+
+.c-SaddleBrown {
+    color: var(--tenth)
+}
+
+.c-green {
+    color: #22c55e;
+}
+
+/* End Color */
+
+/* Start Fonts */
+.text-center {
+    text-align: center;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.normal-case {
+    text-transform: none;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.text-xsm {
+    font-size: 12px;
+}
+
+.text-sm {
+    font-size: 14px;
+}
+
+.text-lg {
+    font-size: 21px;
+}
+
+.text-xlg {
+    font-size: 27px;
+}
+
+/* End Fonts */
+
+/* Start Images & Videos */
+.w-9 {
+    width: 35px;
+}
+
+.w-10 {
+    width: 70px
+}
+
+.w-full {
+    width: 100%;
+}
+
+.max-w-full {
+    max-width: 100%;
+}
+
+.w-fit {
+    width: fit-content;
+}
+
+.h-1 {
+    height: 4px;
+}
+
+.h-9 {
+    height: 35px;
+}
+
+.h-10 {
+    height: 60px;
+}
+
+.h-full {
+    height: 100%;
+}
+
+/* End Images & Videos */
+
+/* Start Components */
+.between-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* End Components */
+
+/* Medias */
+
+@media (max-width: 375px) {
+    .page .page-content header {
+        padding: 14px;
+    }
+}
+
+@media (min-width: 767px) {
+    .around-flex {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .page .page-content .wrapper .tick-stati .content .box {
+        width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 767px) {
+    .page aside {
+        width: 60px;
+    }
+
+    .page aside h2 {
+        font-size: 15px;
+        margin-left: -15px;
+    }
+
+    .page aside h2::before {
+        display: none;
+    }
+
+    .page aside h2::after {
+        height: 8px;
+        width: 8px;
+        left: 24px;
+    }
+
+    .page aside ul li {
+        width: 33px;
+        margin-left: -7px;
+        padding: 10px 0;
+    }
+
+    .page aside ul li a {
+        padding: 10px 0;
+    }
+
+    .page aside ul li a i {
+        margin: 0 0 0 6px;
+    }
+
+    .page aside ul li a span {
+        display: none;
+    }
+
+    .page .page-content .wrapper {
+        grid-template-columns: minmax(250px, 1fr);
+    }
+}
